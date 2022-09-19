@@ -18,7 +18,8 @@ h1 {
     font-family: "Luxurious Roman", cursive;
     font-size: 60px;
     font-weight: bold;
-    color: var(--colorSecundario);
+    /* color: var(--colorSecundario); */
+    color: var(--colorHover);
 }
 
 h2,
