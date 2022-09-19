@@ -566,12 +566,6 @@ a {
 
 @media (max-width: 900px) {
     /* HEADER */
-    /* .header__top {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 70px;
-    } */
     .header__top i {
         font-size: 25px;
     }
@@ -593,9 +587,6 @@ a {
     }
     .header__nav ul li {
         width: 110px;
-    }
-    .header__nav a:hover {
-        color: var(--colorSecundario);
     }
     /* T-SHIRTS / HOODIES */
     .collection {
