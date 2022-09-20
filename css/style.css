@@ -175,7 +175,8 @@ a {
 
 /* CAROUSEL */
 
-.main__carousel img {
+
+/* .main__carousel img {
     height: 350px;
     width: 33%;
 }
@@ -194,6 +195,15 @@ a {
 
 .next {
     right: 0;
+} */
+
+.carouselFlex {
+    display: flex;
+    height: 350px;
+}
+
+.carouselFlex img {
+    width: 33%;
 }
 
 
