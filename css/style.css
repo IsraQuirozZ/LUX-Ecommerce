@@ -388,15 +388,12 @@ a {
 
 /* REVIEWS */
 
-.reviews__content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 50px 0;
+.reviews {
+    margin: 20px 0;
 }
 
 .review {
-    width: 45%;
+    width: 50%;
     height: 300px;
     padding: 30px 30px 50px;
     margin: 20px auto;
@@ -592,6 +589,9 @@ a {
     .header__top--left {
         width: 30%;
     }
+    .header__top--left p {
+        font-size: 14px;
+    }
     .search input {
         width: 100%;
     }
@@ -659,6 +659,9 @@ a {
         width: 90%;
     }
     /* REVIEWS */
+    .review {
+        width: 70%;
+    }
     /* MORE INFO */
     .knowMore .infoContainer p {
         font-size: 14px;
