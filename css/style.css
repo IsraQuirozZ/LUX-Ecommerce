@@ -493,7 +493,7 @@ a {
 /* TITLES */
 
 .title {
-    margin: 20px;
+    margin: 20px auto 0;
 }
 
 .filterBtn {
@@ -565,6 +565,7 @@ a {
 
 .item__description {
     line-height: 1.5;
+    margin-top: 10px;
 }
 
 .item__description h5 {
@@ -572,10 +573,10 @@ a {
 }
 
 
-/* SNEAKERS */
+/* SNEAKERS &ACCESSORIES*/
 
 .difItem img {
-    height: 350px;
+    height: 320px;
 }
 
 
@@ -666,12 +667,28 @@ a {
     .knowMore .infoContainer p {
         font-size: 14px;
     }
-    /* T-SHIRTS / HOODIES */
+    /* T-SHIRTS // HOODIES */
     .collection {
-        grid-template-columns: repeat(2, 1fr);
+        padding: 0 50px;
+    }
+    .collection__item .heartIcon {
+        font-size: 20px;
+        padding: 3px;
+    }
+    .collection__item .soldOut {
+        font-size: 20px;
+        padding: 3px;
     }
     .collection__item img {
-        height: 450px;
+        height: 350px;
+    }
+    .item__description h5 {
+        color: gray;
+        font-size: 16px;
+    }
+    /* SNEAKERS & ACCESORIES*/
+    .difItem img {
+        height: 70%;
     }
 }
 
