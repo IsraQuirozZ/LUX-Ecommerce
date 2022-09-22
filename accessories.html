@@ -6,18 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LUX</title>
-    <link rel="stylesheet" href="./css/style.css" />
     <!-- FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;700&family=Luxurious+Roman&display=swap" rel="stylesheet" />
     <!-- Icons -->
     <script src="https://kit.fontawesome.com/6209fab7df.js" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
+    <!-- header -->
     <header class="header">
-        <div class="header__top container">
+        <div class="header__top">
+            <button class="menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
             <div class="header__top--left">
                 <p>SÍGUENOS EN</p>
                 <div class="icons">
@@ -42,7 +49,7 @@
                     <a href="#">
                         <i class="fa-regular fa-user"></i>
                     </a>
-                    <a href="#">
+                    <a class="heartIcon" href="#">
                         <i class="fa-regular fa-heart heartIcon"></i>
                     </a>
                     <a href="#">
@@ -57,14 +64,13 @@
                 <li>
                     <a href="/Proyecto/index.html">HOME</a>
                 </li>
-                <li>
-                    <a href="/Proyecto/t-shirts.html">PLAYERAS</a>
-                </li>
+                <li><a href="/Proyecto/t-shirts.html">PLAYERAS</a></li>
                 <li><a href="/Proyecto/hoodies.html">SUDADERAS</a></li>
                 <li><a href="/Proyecto/sneakers.html">ZAPATILLAS</a></li>
                 <li>
                     <a href="#"><span>ACCESORIOS</span></a>
                 </li>
+                <li class="account"><a href="#">CUENTA</a></li>
             </ul>
         </nav>
     </header>
@@ -171,6 +177,19 @@
             <p>&copy; 2022, LUX</p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script>
+        const menu = document.querySelector(".menu");
+        const navMenu = document.querySelector(".header__nav");
+        const search = document.querySelector(".search");
+        const body = document.querySelector("body");
+
+        menu.addEventListener("click", () => {
+            navMenu.classList.toggle("nav_visible");
+            search.classList.toggle("search_unvisible");
+            body.classList.toggle("allFixed");
+        });
+    </script>
 </body>
 
 </html>

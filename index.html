@@ -20,7 +20,6 @@
 
 <body>
     <!-- header -->
-
     <header class="header">
         <div class="header__top">
             <button class="menu">
@@ -343,10 +342,12 @@
         const menu = document.querySelector(".menu");
         const navMenu = document.querySelector(".header__nav");
         const search = document.querySelector(".search");
+        const body = document.querySelector("body");
 
         menu.addEventListener("click", () => {
             navMenu.classList.toggle("nav_visible");
             search.classList.toggle("search_unvisible");
+            body.classList.toggle("allFixed");
         });
     </script>
 </body>
