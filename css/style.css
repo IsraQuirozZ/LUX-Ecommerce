@@ -335,7 +335,7 @@ a {
     top: 25%;
 }
 
-.gridItem a {
+.gridItem button {
     position: absolute;
     z-index: 1;
     top: 50%;
@@ -425,6 +425,14 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.knowMore h3 a {
+    color: black;
+}
+
+.knowMore h3 a:hover {
+    color: var(--colorSecundario);
 }
 
 
@@ -909,12 +917,6 @@ a {
     }
     .knowMore .infoContainer i {
         font-size: 40px;
-    }
-    .knowMore h3 a {
-        color: black;
-    }
-    .knowMore h3 a:hover {
-        color: var(--colorSecundario);
     }
     /* FOOTER */
     .footer h1 {
