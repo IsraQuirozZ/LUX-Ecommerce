@@ -905,10 +905,16 @@ a {
     }
     .knowMore .infoContainer {
         width: 100%;
-        padding: 20px;
+        padding: 0 20px 20px;
     }
     .knowMore .infoContainer i {
-        font-size: 30px;
+        font-size: 40px;
+    }
+    .knowMore h3 a {
+        color: black;
+    }
+    .knowMore h3 a:hover {
+        color: var(--colorSecundario);
     }
     /* FOOTER */
     .footer h1 {
