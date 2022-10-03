@@ -496,7 +496,8 @@ a {
 
 /* TITLES */
 
-.title {
+
+/* .title {
     margin: 20px auto 0;
 }
 
@@ -518,12 +519,13 @@ a {
     background-color: var(--colorPrincipal);
     color: var(--colorSecundario);
     border: 5px solid var(--colorSecundario);
-}
+} */
 
 
 /* T-SHIRTS // HOODIES */
 
-.collection {
+
+/* .collection {
     padding: 0 70px;
     margin-bottom: 50px;
     display: grid;
@@ -549,9 +551,10 @@ a {
 .collection__item .heartIcon:hover {
     color: var(--colorSecundario);
     background-color: var(--colorPrincipal);
-}
+} */
 
-.collection__item .soldOut {
+
+/* .collection__item .soldOut {
     padding: 5px;
     border: 2px solid var(--colorPrincipal);
     position: absolute;
@@ -574,14 +577,15 @@ a {
 
 .item__description h5 {
     color: gray;
-}
+} */
 
 
 /* SNEAKERS &ACCESSORIES*/
 
-.difItem img {
+
+/* .difItem img {
     height: 320px;
-}
+} */
 
 
 /* RESPONSIVE */
@@ -672,7 +676,7 @@ a {
         font-size: 14px;
     }
     /* T-SHIRTS // HOODIES */
-    .collection {
+    /* .collection {
         padding: 0 50px;
     }
     .collection__item .heartIcon {
@@ -689,11 +693,11 @@ a {
     .item__description h5 {
         color: gray;
         font-size: 16px;
-    }
+    } */
     /* SNEAKERS & ACCESORIES*/
-    .difItem img {
+    /* .difItem img {
         height: 70%;
-    }
+    } */
 }
 
 
@@ -948,15 +952,15 @@ a {
     }
     /*End of home page*/
     /* TITLES */
-    .title {
+    /* .title {
         margin: 80px auto 0;
     }
     .filterBtn:hover {
         width: 90px;
         height: 45px;
-    }
+    } */
     /* T-SHIRTS // HOODIES */
-    .collection {
+    /* .collection {
         padding: 0 20px;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
@@ -978,9 +982,9 @@ a {
     }
     .item__description h5 {
         font-size: 12px;
-    }
+    } */
     /* SNEAKERS &ACCESSORIES*/
-    .difItem img {
+    /* .difItem img {
         height: 170px;
-    }
+    } */
 }
