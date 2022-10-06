@@ -54,6 +54,7 @@
   height: 450px;
   -o-object-fit: cover;
      object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .collection .collection__item .item__description {
   line-height: 1.5;
@@ -80,7 +81,7 @@
   .collection .collection__item .soldOut {
     font-size: 20px;
     padding: 3px;
-    top: 75%;
+    top: 60%;
   }
   .collection .collection__item img {
     height: 350px;
@@ -112,7 +113,7 @@
   }
   .collection .collection__item .soldOut {
     font-size: 18px;
-    padding: 4px;
+    padding: 3px;
     top: 70%;
   }
   .collection .collection__item img {
@@ -125,6 +126,11 @@
   .collection .collection__item .item__description h5 {
     font-size: 12px;
   }
+  .collection .difItem .soldOut {
+    top: 5%;
+  }
+}
+@media (max-width: 550px) {
   .collection .difItem img {
     height: 170px;
   }
