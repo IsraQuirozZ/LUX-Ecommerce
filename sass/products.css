@@ -34,7 +34,6 @@
 .collection .collection__item .heartIcon {
   font-size: 25px;
   padding: 5px;
-  border: 2px solid var(--colorPrincipal);
   position: absolute;
   top: 0;
   right: 0;
@@ -42,22 +41,19 @@
 }
 .collection .collection__item .heartIcon:hover {
   color: var(--colorSecundario);
-  background-color: var(--colorPrincipal);
 }
 .collection .collection__item .soldOut {
   padding: 5px;
-  border: 2px solid var(--colorPrincipal);
   position: absolute;
-  top: 0;
+  top: 5%;
   left: 0;
-  text-align: center;
+  background-color: var(--colorSecundario);
 }
 .collection .collection__item img {
   width: 100%;
   height: 450px;
-  border: 1px solid black;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .collection .collection__item .item__description {
   line-height: 1.5;
@@ -65,6 +61,9 @@
 }
 .collection .collection__item .item__description h5 {
   color: gray;
+}
+.collection .collection__item .item__description .soldOutItem {
+  text-decoration: line-through;
 }
 .collection .difItem img {
   height: 320px;
@@ -81,6 +80,7 @@
   .collection .collection__item .soldOut {
     font-size: 20px;
     padding: 3px;
+    top: 75%;
   }
   .collection .collection__item img {
     height: 350px;
@@ -113,6 +113,7 @@
   .collection .collection__item .soldOut {
     font-size: 18px;
     padding: 4px;
+    top: 70%;
   }
   .collection .collection__item img {
     width: 100%;
