@@ -213,6 +213,12 @@ a {
     height: 350px;
 }
 
+.carousel-item img {
+    max-height: 350px;
+    /* object-fit: contain; */
+    object-fit: cover;
+}
+
 
 /* MAIN INFO */
 

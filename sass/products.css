@@ -2,22 +2,20 @@
   margin: 20px auto 0;
 }
 .title .filterBtn {
-  width: 80px;
   height: 40px;
+  width: 80px;
   font-size: 20px;
   background-color: white;
   color: var(--colorPrincipal);
-  border: 5px solid var(--colorPrincipal);
+  border: 3px solid var(--colorPrincipal);
   border-radius: 5px;
   cursor: pointer;
-  margin: 30px;
+  margin: 20px;
+  transition: ease 0.2s;
 }
 .title .filterBtn:hover {
-  width: 100px;
-  height: 50px;
-  background-color: var(--colorPrincipal);
-  color: var(--colorSecundario);
-  border: 5px solid var(--colorSecundario);
+  border: 3px solid #d1aa6e;
+  box-shadow: #d1aa6e 0px 0px 15px;
 }
 
 .collection {
@@ -40,18 +38,18 @@
   cursor: pointer;
 }
 .collection .collection__item .heartIcon:hover {
-  color: var(--colorSecundario);
+  color: #d1aa6e;
 }
 .collection .collection__item .soldOut {
   padding: 5px;
   position: absolute;
   top: 5%;
   left: 0;
-  background-color: var(--colorSecundario);
+  background-color: #d1aa6e;
 }
 .collection .collection__item img {
-  width: 100%;
   height: 450px;
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -81,7 +79,7 @@
   .collection .collection__item .soldOut {
     font-size: 20px;
     padding: 3px;
-    top: 60%;
+    top: 75%;
   }
   .collection .collection__item img {
     height: 350px;
@@ -99,8 +97,8 @@
     margin: 80px auto 0;
   }
   .title .filterBtn:hover {
-    width: 90px;
     height: 45px;
+    width: 90px;
   }
   .collection {
     padding: 0 20px;
@@ -114,11 +112,11 @@
   .collection .collection__item .soldOut {
     font-size: 18px;
     padding: 3px;
-    top: 70%;
+    top: 80%;
   }
   .collection .collection__item img {
+    height: 400px;
     width: 100%;
-    height: 300px;
   }
   .collection .collection__item .item__description h4 {
     font-size: 15px;
@@ -131,6 +129,13 @@
   }
 }
 @media (max-width: 550px) {
+  .collection .collection__item img {
+    height: 300px;
+    width: 100%;
+  }
+  .collection .collection__item .soldOut {
+    top: 70%;
+  }
   .collection .difItem img {
     height: 170px;
   }
