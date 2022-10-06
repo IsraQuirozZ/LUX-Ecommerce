@@ -79,7 +79,7 @@
   .collection .collection__item .soldOut {
     font-size: 20px;
     padding: 3px;
-    top: 75%;
+    top: 72%;
   }
   .collection .collection__item img {
     height: 350px;
@@ -87,6 +87,9 @@
   .collection .collection__item .item__description h5 {
     color: gray;
     font-size: 16px;
+  }
+  .collection .difItem .soldOut {
+    top: 5%;
   }
   .collection .difItem img {
     height: 70%;
@@ -106,7 +109,7 @@
     gap: 20px;
   }
   .collection .collection__item .heartIcon {
-    font-size: 18px;
+    font-size: 20px;
     padding: 4px;
   }
   .collection .collection__item .soldOut {
@@ -135,6 +138,9 @@
   }
   .collection .collection__item .soldOut {
     top: 70%;
+  }
+  .collection .difItem .soldOut {
+    top: 5%;
   }
   .collection .difItem img {
     height: 170px;

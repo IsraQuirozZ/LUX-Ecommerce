@@ -86,7 +86,7 @@ $colorSecundario: #d1aa6e;
             }
             .soldOut {
                 @include descriptionSize(20px, 3px);
-                top: 75%;
+                top: 72%;
             }
             img {
                 height: 350px;
@@ -99,6 +99,9 @@ $colorSecundario: #d1aa6e;
             }
         }
         .difItem {
+            .soldOut {
+                top: 5%;
+            }
             img {
                 height: 70%;
             }
@@ -121,7 +124,7 @@ $colorSecundario: #d1aa6e;
         gap: 20px;
         .collection__item {
             .heartIcon {
-                @include descriptionSize(18px, 4px);
+                @include descriptionSize(20px, 4px);
             }
             .soldOut {
                 @include descriptionSize(18px, 3px);
@@ -158,6 +161,9 @@ $colorSecundario: #d1aa6e;
             }
         }
         .difItem {
+            .soldOut {
+                top: 5%;
+            }
             img {
                 height: 170px;
             }
