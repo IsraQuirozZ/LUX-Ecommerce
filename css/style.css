@@ -316,7 +316,7 @@ a {
 
 .gridItem h2 {
     font-size: 35px;
-    width: 50%;
+    width: 74%;
     padding: 15px;
     border-radius: 5px;
     text-align: center;
@@ -552,6 +552,8 @@ a {
     }
     .gridItem h2 {
         font-size: 25px;
+        width: 67%;
+        top: 20%;
     }
     .gridItem a {
         top: 45%;
@@ -748,12 +750,7 @@ a {
         margin-bottom: 20px;
     }
     .gridItem h2 {
-        font-size: 30px;
-    }
-    .gridItem a {
-        position: absolute;
-        z-index: 1;
-        top: 50%;
+        width: 65%;
     }
     .collectionBtn {
         width: 100px;
