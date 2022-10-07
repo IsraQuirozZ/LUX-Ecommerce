@@ -60,6 +60,7 @@
 }
 .collection .collection__item .item__description h5 {
   color: gray;
+  font-size: 18px;
 }
 .collection .collection__item .item__description .soldOutItem {
   text-decoration: line-through;
@@ -122,10 +123,10 @@
     width: 100%;
   }
   .collection .collection__item .item__description h4 {
-    font-size: 15px;
+    font-size: 16px;
   }
   .collection .collection__item .item__description h5 {
-    font-size: 12px;
+    font-size: 13px;
   }
   .collection .difItem .soldOut {
     top: 5%;
