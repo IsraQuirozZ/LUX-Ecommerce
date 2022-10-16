@@ -502,6 +502,229 @@ a {
 /* HERE ENDS THE HOME PAGE */
 
 
+/* SHOPPING CART */
+
+.cartContainer {
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.cartItems {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 70%;
+    height: 85vh;
+    position: relative;
+    overflow-y: scroll;
+}
+
+.cartItems::-webkit-scrollbar {
+    width: 0;
+}
+
+.cartTitle {
+    position: sticky;
+    background-color: white;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 2px solid rgb(220, 218, 218);
+    padding: 10px 20px;
+    /* margin-bottom: 20px; */
+}
+
+.cartTitle h5 {
+    font-size: 30px;
+}
+
+
+/* Scroll */
+
+.cartItem {
+    /* border-bottom: 1px solid black; */
+    border-bottom: 2px solid rgb(220, 218, 218);
+    display: flex;
+    width: 100%;
+    height: 200px;
+    /* gap: 10px; */
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.checkItem {
+    width: 20px;
+    height: 20px;
+}
+
+.cartItem img {
+    width: 180px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cartItemDescription {
+    width: 50%;
+    height: 60%;
+    /* background-color: #f05454; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cartItemDescription .stock {
+    color: rgb(47, 187, 26);
+}
+
+.cartItemDescription .noStock {
+    color: rgb(168, 39, 39);
+}
+
+.price {
+    height: 50%;
+}
+
+.options {
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 30px;
+    align-items: center;
+}
+
+.deleteItem {
+    border: none;
+    background-color: white;
+    color: #5e7eb5;
+}
+
+.cartLink {
+    color: #5e7eb5;
+}
+
+.deleteItem:hover {
+    color: var(--colorTerciario);
+    text-decoration: underline;
+}
+
+.cartLink:hover {
+    color: var(--colorTerciario);
+    text-decoration: underline;
+}
+
+
+/* RIGHT SIDE */
+
+.cartInfo {
+    width: 30%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fullPayment {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+
+.fullPayment p {
+    color: gray;
+    text-align: center;
+    font-size: 17px;
+}
+
+.total {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.checkout {
+    margin: auto auto;
+    width: 40%;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 17px;
+    border: 3px solid var(--colorSecundario);
+    color: var(--colorSecundario);
+    background-color: inherit;
+}
+
+.checkout:hover {
+    color: white;
+    background-color: #313b4b;
+    box-shadow: var(--colorSecundario) 0px 0px 15px;
+}
+
+.recomendations {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px; */
+    gap: 20px;
+    position: relative;
+    overflow-y: scroll;
+}
+
+.recomendations::-webkit-scrollbar {
+    width: 0;
+}
+
+.recomendations h5 {
+    padding: 10px;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    font-size: 17px;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(220, 218, 218);
+}
+
+.featuredItem {
+    padding: 0 20px;
+    display: flex;
+    gap: 20px;
+    border-bottom: 2px solid rgb(220, 218, 218);
+}
+
+.featuredItem img {
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+.featuredItem .featuredItemInfo {
+    width: 60%;
+}
+
+.featuredItemInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cartStars {
+    font-size: 15px;
+    justify-content: left;
+    gap: 5px;
+}
+
+.add {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
 /* THE CSS OF THE PAGES IS ON THE PRODUCTS CSS FILE (SASS) */
 
 
