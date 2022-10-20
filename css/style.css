@@ -515,7 +515,7 @@ a {
 .cartItems {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 70%;
-    height: 85vh;
+    height: 90vh;
     position: relative;
     overflow-y: scroll;
 }
@@ -544,7 +544,6 @@ a {
 /* Scroll */
 
 .cartItem {
-    /* border-bottom: 1px solid black; */
     border-bottom: 2px solid rgb(220, 218, 218);
     display: flex;
     width: 100%;
@@ -619,7 +618,7 @@ a {
 
 .cartInfo {
     width: 30%;
-    height: 85vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -628,7 +627,7 @@ a {
 .fullPayment {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 100%;
-    height: 35%;
+    height: 30%;
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -668,10 +667,9 @@ a {
 .recomendations {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 100%;
-    height: 65%;
+    height: 70%;
     display: flex;
     flex-direction: column;
-    /* padding: 20px; */
     gap: 20px;
     position: relative;
     overflow-y: scroll;
@@ -725,7 +723,7 @@ a {
 }
 
 
-/* THE CSS OF THE PAGES IS ON THE PRODUCTS CSS FILE (SASS) */
+/* THE CSS OF THE PRODUCT PAGES IS ON THE PRODUCTS CSS FILE (SASS) */
 
 
 /* RESPONSIVE */
@@ -816,6 +814,96 @@ a {
     /* MORE INFO */
     .knowMore .infoContainer p {
         font-size: 14px;
+    }
+    /* SHOPPING CART */
+    .cartTitle h5 {
+        font-size: 25px;
+    }
+    .cartTitle h4,
+    .price {
+        font-size: 15px;
+    }
+    .cartItem {
+        border-bottom: 1.5px solid rgb(220, 218, 218);
+        height: 150px;
+    }
+    .checkItem {
+        width: 18px;
+        height: 18px;
+    }
+    .cartItem img {
+        width: 120px;
+    }
+    .cartItemDescription {
+        width: 55%;
+        height: 95%;
+    }
+    .cartItemDescription h2 {
+        font-size: 18px;
+    }
+    .cartItemDescription .stock .noStock {
+        font-size: 15px;
+    }
+    .options {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .options label,
+    .options button {
+        font-size: 14px;
+    }
+    /* RIGHT SIDE */
+    .fullPayment {
+        height: 30%;
+        padding: 10px;
+        gap: 10px;
+    }
+    .fullPayment p {
+        font-size: 12px;
+    }
+    .total {
+        align-items: center;
+    }
+    .total h3 {
+        font-size: 15px;
+    }
+    .total h2 {
+        font-size: 18px;
+    }
+    .checkout {
+        padding: 3px;
+        width: auto;
+        font-size: 15px;
+    }
+    .recomendations {
+        gap: 10px;
+    }
+    .recomendations h5 {
+        font-size: 15px;
+    }
+    .featuredItem {
+        padding: 0 10px;
+        gap: 10px;
+    }
+    .featuredItem img {
+        width: 50%;
+        /* height: 100%; */
+        margin-bottom: 0px;
+        padding-bottom: 10px;
+    }
+    .featuredItemInfo {
+        width: 50%;
+    }
+    .featuredItemInfo h4 {
+        font-size: 12px;
+    }
+    .cartStars {
+        font-size: 10px;
+    }
+    .add {
+        width: 100%;
+        height: auto;
+        font-size: 12px;
     }
 }
 
