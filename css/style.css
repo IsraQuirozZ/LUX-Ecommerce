@@ -1209,10 +1209,6 @@ a {
         gap: 30px;
     }
     .fullPayment {
-        /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px; */
-        /* box-shadow: none; */
-        /* border-top: 2px solid rgb(220, 218, 218); */
-        /* border-bottom: 2px solid rgb(220, 218, 218); */
         padding: 20px;
         height: auto;
         gap: 20px;
@@ -1234,6 +1230,7 @@ a {
     .recomendations {
         height: 50vh;
         gap: 10px;
+        margin-bottom: 20px;
     }
     .recomendations h5 {
         top: -1px;
@@ -1252,7 +1249,6 @@ a {
     }
     .cartStars {
         font-size: 25px;
-        justify-content: left;
         gap: 5px;
     }
 }
