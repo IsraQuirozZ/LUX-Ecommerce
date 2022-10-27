@@ -887,7 +887,6 @@ a {
     }
     .featuredItem img {
         width: 50%;
-        /* height: 100%; */
         margin-bottom: 0px;
         padding-bottom: 10px;
     }
@@ -1150,5 +1149,110 @@ a {
     .footer__info i {
         font-size: 35px;
         margin: 5px;
+    }
+    /* SHOPPING CART */
+    .cartTit {
+        padding: 0 0;
+    }
+    .cartTit .titleContainer,
+    .cartTit .line {
+        display: none;
+    }
+    .cartContainer {
+        flex-direction: column;
+        gap: 0px;
+        margin: 0;
+    }
+    .cartItems {
+        box-shadow: none;
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 100%;
+    }
+    .cartTitle {
+        border-bottom: 2px solid rgb(220, 218, 218);
+        padding: 0 20px 5px 20px;
+    }
+    .cartTitle h5 {
+        font-size: 30px;
+    }
+    /* Scroll */
+    .cartItem {
+        height: 150px;
+    }
+    .checkItem {
+        display: none;
+    }
+    .cartItem img {
+        width: 120px;
+        object-fit: cover;
+    }
+    .cartItemDescription {
+        width: auto;
+        height: 90%;
+        margin: 10px;
+    }
+    .price {
+        height: 90%;
+        margin-right: 20px;
+    }
+    .options {
+        gap: 10px;
+    }
+    .cartLink {
+        display: none;
+    }
+    /* RIGHT SIDE */
+    .cartInfo {
+        width: 100%;
+        height: auto;
+        gap: 30px;
+    }
+    .fullPayment {
+        /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px; */
+        /* box-shadow: none; */
+        /* border-top: 2px solid rgb(220, 218, 218); */
+        /* border-bottom: 2px solid rgb(220, 218, 218); */
+        padding: 20px;
+        height: auto;
+        gap: 20px;
+    }
+    .fullPayment p {
+        font-size: 15px;
+        order: 2;
+    }
+    .total {
+        justify-content: space-between;
+        order: 1;
+    }
+    .total h3 {
+        font-size: 20px;
+    }
+    .checkout {
+        order: 3;
+    }
+    .recomendations {
+        height: 50vh;
+        gap: 10px;
+    }
+    .recomendations h5 {
+        top: -1px;
+        font-size: 20px;
+    }
+    .featuredItem img {
+        width: 45%;
+        margin-bottom: 0px;
+    }
+    .featuredItemInfo {
+        gap: 15px;
+        margin-top: 5px;
+    }
+    .featuredItemInfo h4 {
+        font-size: 20px;
+    }
+    .cartStars {
+        font-size: 25px;
+        justify-content: left;
+        gap: 5px;
     }
 }
