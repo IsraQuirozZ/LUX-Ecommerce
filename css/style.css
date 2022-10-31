@@ -1423,6 +1423,31 @@ a {
         width: 100px;
         bottom: 20px;
         right: 20px;
-        /* transform: translate(50%); */
+    }
+    /* LOGIN */
+    .loginSection {
+        padding: 70px;
+    }
+    .login {
+        width: 100%;
+        padding: 20px;
+    }
+    .login h2 {
+        font-size: 25px;
+    }
+    .login form {
+        gap: 10px;
+        margin: 30px 0;
+    }
+    .login form input {
+        height: 30px;
+    }
+    .login form button {
+        height: 30px;
+        font-size: 12px;
+    }
+    .login a {
+        font-size: 15px;
+        margin-bottom: 8px;
     }
 }
